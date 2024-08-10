@@ -1,0 +1,2904 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav1
+{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.nav2
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+}
+.nav2 li
+{
+    margin-right: 5px;
+    padding: 10px;
+}
+.nav2 li:hover
+{
+    text-decoration: underline;
+}
+.nav3
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border: 0px solid;
+}
+.nav3 .sub1
+{
+    display: flex;
+    width: 25%;
+    border: 0px solid;
+    height: 50px;
+}
+.nav3 .sub2
+{
+    height: 50px;
+    width: 55%;
+    list-style: none;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px solid;
+    /* margin-top: 15px;
+    margin-left: 80px; */
+}
+.nav3 .sub3
+{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    border: 0px solid;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav3 .sub2 a
+{
+    text-decoration: none;
+    color: black;
+}
+.down 
+{
+    width: 100px;
+    height: 12px;
+    border: 0px solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    text-align: right;
+}
+input
+{
+    width: 70%;
+    height: 92%;
+    border: 0px solid;
+    outline: 0;
+    background-color: lightgray;
+}
+.nav3 .sub2 img
+{
+    display: none;
+    margin-bottom: 8px;
+}
+.nav3 .sub1 i
+{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 30px;
+    display: none;
+}
+.nav3 .sub3 #glass
+{
+    display: none;
+}
+@media(max-width:991px)
+{
+    .nav3 .sub2 li
+    {
+        display: none;
+    }
+    .nav3 .sub2 img
+    {
+        display: block;
+    }
+    .nav3 .sub1 img
+    {
+        display: none;
+    }
+    .nav3 .sub1 i
+    {
+        display: block;
+    }
+    .nav3 .sub3 .down
+    {
+        display: none;
+    }
+    .nav3 .sub3 .fa-heart
+    {
+        display: none;
+    }
+    .nav3 .sub3 #glass
+    {
+        display: block;
+    }
+    .nav2
+    {
+        display: none;
+    }
+}
+/*navbar__end*/
+.body1
+{
+    height: 100px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+}
+.body1 li
+{
+    margin-left: 5px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+.body1 i
+{
+    margin-left: 70px;
+    font-weight: 600;
+}
+.body1 li:hover
+{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.body1 a
+{
+    padding: 5px 1px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+.body1 a:hover
+{
+    color: white;
+    background-color: black;
+}
+.body1 i:hover
+{
+    visibility: hidden;
+}
+/*body1__end*/
+.body2
+{
+    height: 30px;
+    width: 100%;
+    font-size: 30px;
+    border: 0px solid;
+    background-color: #fff;
+    z-index: 25;
+    display: flex;
+}
+.body2 .leftside
+{
+    height: 30px;
+    width: 50%;
+}
+
+.body2 .fa-sliders
+{
+    text-align: end;
+    height: 30px;
+    width: 40%;
+    display: none;
+}
+.body2 a
+{
+    font-size: small;
+    font-style: normal;
+    color: gray;
+    margin-left: 5px;
+}
+.body2 i
+{
+    margin-left: 70px;
+}
+/*body2__end*/
+
+.body3
+{
+    width: 100%;
+    height: 260px;
+    background-color: brown;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 20;
+}
+.body3 .child1
+{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.body3 .child2
+{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1
+{
+    height: 200%;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+}
+.box1:hover
+{
+    margin-top: -20px;
+}
+.body3 .box1 .bb1
+{
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: white;
+}
+.body3 .box1 .bb1 b
+{
+    margin-left: 15px;
+    height: 50%;
+    width: 70%;
+}
+.body3 .box1 .bb1 b:hover
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+/*.body3 .child1 .child2 .box1
+{
+    margin-left: 35px;
+}*/
+.box2
+{
+    height: 170%;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.body3 .box2 li b
+{
+    height: 80px;
+    width: 100%;
+    background: url(background.jpg);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 18px;
+    flex-direction: column;
+}
+.body3 .box2 li strong
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-direction: column;
+}
+    /*body3 img row end*/
+.filtertab
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    word-spacing: 2px;
+}
+.filtertab button
+{
+    margin-right: 80px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.filtertab button i
+{
+   margin-left: 10px;
+   font-size: large;
+}
+@media(max-width:991px)
+{
+    .body1
+    {
+        display: none;
+    }
+    .body2
+    {
+        font-size: large;
+        margin-top: 20px;
+    }
+    .body2 i
+    {
+        margin-left: 20px;
+    }
+    .body3 .child1 .child2 .gold 
+    {
+        display: none;
+    }
+    .body3 .child1 .child2 .baige 
+    {
+        display: none;
+    }
+    .body3 .child1 .child2 .lavendar
+    {
+        display: none;
+    }
+    .body3 .child1 .child2 .darken 
+    {
+        display: none;
+    }
+    .body3 .child1 .child2 .blue 
+    {
+        display: none;
+    }
+    .box1
+    {
+        height: 230%;
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        transition: .2s;
+    }
+    .box2
+    {
+        height: 200%;
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+    /*.body3 .box2 li b
+    {
+        height: 240%;
+    }*/
+    .body3 .box2 li strong
+    {
+        height: 55px;
+    }
+    .body3 .box2 li b
+    {
+        height: 140px;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+    .body3 .box1 img
+    {
+        height: 160px;
+    }
+    .body2 .fa-sliders
+    {
+        display: block;
+        font-size: 20px;
+    }
+    .filtertab
+    {
+        display: none;
+    }
+}
+@media(max-width:599px)
+{
+    .body3 .box2 li b
+    {
+        font-size: 15px;
+    }
+    .body2
+    {
+        font-size: small;
+        margin-top: 20px;
+    }
+}
+/* filtertab end */
+.eoss
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+.eoss .shoe1
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss .shoe1 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(eoss1.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe1 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe1 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe1 .text1
+{
+    color: gray;
+}
+.eoss .shoe1 .text1 a
+{
+    color: black;
+}
+.eoss .shoe1 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss .shoe1 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(shoehov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe1:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss .shoe1
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss .shoe2
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss .shoe2 .bestseller 
+{
+    height: 15px;
+    width: 280px;
+    background-color: rgba(204, 198, 198, 0.315);
+    font-size: small;
+    border: 1px solid white;
+}
+.eoss .shoe2:hover .bestseller
+{
+    height: 15px;
+    width: 280px;
+    background-color: black;
+    font-size: small;
+    color: white;
+}
+.eoss .shoe2 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(eosssh2.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe2 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe2 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe2 .text1
+{
+    color: gray;
+}
+.eoss .shoe2 .text1 a
+{
+    color: black;
+}
+.eoss .shoe2 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss .shoe2 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(shoe2hov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe2:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss .shoe2
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss .shoe3
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss .shoe3 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(shoeeoss3.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe3 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe3 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe3 .text1
+{
+    color: gray;
+}
+.eoss .shoe3 .text1 a
+{
+    color: black;
+}
+.eoss .shoe3 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss .shoe3 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(eosssh3.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe3:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss .shoe3
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss .shoe4
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss .shoe4 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(shirthoveoss.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe4 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe4 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss .shoe4 .text1
+{
+    color: gray;
+}
+.eoss .shoe4 .text1 a 
+{
+    color: black;
+}
+.eoss .shoe4 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss .shoe4 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(eossshirt1.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss .shoe4:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss .shoe4
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+/* row1 end */
+
+.eoss2 .shoe5
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss2 .shoe5 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(eosspant.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe5 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe5 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe5 .text1
+{
+    color: gray;
+}
+.eoss2 .shoe5 .text1 a
+{
+    color: black;
+}
+.eoss2 .shoe5 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss2 .shoe5 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(eosspanthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe5:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss2 .shoe5
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss2
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss2 .shoe6
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss2 .shoe6 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r2shirt.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe6 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe6 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe6 .text1
+{
+    color: gray;
+}
+.eoss2 .shoe6 .text1 a
+{
+    color: black;
+}
+.eoss2 .shoe6 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss2 .shoe6 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r2shirthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe6:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss2 .shoe6
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss2
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss2 .shoe7
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss2 .shoe7 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r2white.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe7 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe7 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe7 .text1
+{
+    color: gray;
+}
+.eoss2 .shoe7 .text1 a
+{
+    color: black;
+}
+.eoss2 .shoe7 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss2 .shoe7 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r2whitehov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe7:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss2 .shoe7
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss2
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss2 .shoe8
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss2 .shoe8 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r2pant.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe8 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe8 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss2 .shoe8 .text1
+{
+    color: gray;
+}
+.eoss2 .shoe8 .text1 a 
+{
+    color: black;
+}
+.eoss2 .shoe8 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss2 .shoe8 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r2panthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss2 .shoe8:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss2 .shoe8
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+/* row2 end */
+.eoss3 .shoe9
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss3 .shoe9 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3wpant.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe9 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe9 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe9 .text1
+{
+    color: gray;
+}
+.eoss3 .shoe9 .text1 a
+{
+    color: black;
+}
+.eoss3 .shoe9 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss3 .shoe9 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3wpanthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe9:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss3 .shoe9
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss3
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss3 .shoe10
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss3 .shoe10 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3wshoe.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe10 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe10 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe10 .text1
+{
+    color: gray;
+}
+.eoss3 .shoe10 .text1 a
+{
+    color: black;
+}
+.eoss3 .shoe10 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss3 .shoe10 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3wshoehov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe10:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss3 .shoe10
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss3
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss3 .shoe11
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss3 .shoe11 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3kidsh.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe11 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe11 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe11 .text1
+{
+    color: gray;
+}
+.eoss3 .shoe11 .text1 a
+{
+    color: black;
+}
+.eoss3 .shoe11 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss3 .shoe11 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3kidshov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe11:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss3 .shoe11
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss3
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss3 .shoe12
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss3 .shoe12 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3girl.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe12 .bestseller 
+{
+    height: 15px;
+    width: 280px;
+    background-color: rgba(204, 198, 198, 0.315);
+    font-size: small;
+    border: 1px solid white;
+}
+.eoss3 .shoe12:hover .bestseller
+{
+    height: 15px;
+    width: 280px;
+    background-color: black;
+    font-size: small;
+    color: white;
+}
+.eoss3 .shoe12 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe12 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss3 .shoe12 .text1
+{
+    color: gray;
+}
+.eoss3 .shoe12 .text1 a 
+{
+    color: black;
+}
+.eoss3 .shoe12 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss3 .shoe12 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r3girlhov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss3 .shoe12:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss3 .shoe12
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+/* row3 end */
+.eoss4 .shoe13
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss4 .shoe13 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4shoe.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe13 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe13 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe13 .text1
+{
+    color: gray;
+}
+.eoss4 .shoe13 .text1 a
+{
+    color: black;
+}
+.eoss4 .shoe13 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss4 .shoe13 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4shoehov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe13:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss4 .shoe13
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss4
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss4 .shoe14
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss4 .shoe14 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4shoe2.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe14 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe14 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe14 .text1
+{
+    color: gray;
+}
+.eoss4 .shoe14 .text1 a
+{
+    color: black;
+}
+.eoss4 .shoe14 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss4 .shoe14 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4shoe2hov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe14:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss4 .shoe14
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss4
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss4 .shoe15
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss4 .shoe15 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4wshirt.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe15 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe15 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe15 .text1
+{
+    color: gray;
+}
+.eoss4 .shoe15 .text1 a
+{
+    color: black;
+}
+.eoss4 .shoe15 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss4 .shoe15 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4wshirthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe15:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss4 .shoe15
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss4
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss4 .shoe16
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss4 .shoe16 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4shirt.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe16 .bestseller 
+{
+    height: 15px;
+    width: 280px;
+    background-color: rgba(204, 198, 198, 0.315);
+    font-size: small;
+    border: 1px solid white;
+}
+.eoss4 .shoe16:hover .bestseller
+{
+    height: 15px;
+    width: 280px;
+    background-color: black;
+    font-size: small;
+    color: white;
+}
+.eoss4 .shoe16 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe16 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss4 .shoe16 .text1
+{
+    color: gray;
+}
+.eoss4 .shoe16 .text1 a 
+{
+    color: black;
+}
+.eoss4 .shoe16 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss4 .shoe16 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r4shirthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss4 .shoe16:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss4 .shoe16
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+/* row4 end */
+.eoss5 .shoe17
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss5 .shoe17 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5paati.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe17 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe17 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe17 .text1
+{
+    color: gray;
+}
+.eoss5 .shoe17 .text1 a
+{
+    color: black;
+}
+.eoss5 .shoe17 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss5 .shoe17 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5paatihov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe17:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss5 .shoe17
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss5
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss5 .shoe18
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss5 .shoe18 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5cap.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe18 .bestseller 
+{
+    height: 15px;
+    width: 280px;
+    background-color: rgba(204, 198, 198, 0.315);
+    font-size: small;
+    border: 1px solid white;
+}
+.eoss5 .shoe18:hover .bestseller
+{
+    height: 15px;
+    width: 280px;
+    background-color: black;
+    font-size: small;
+    color: white;
+}
+.eoss5 .shoe18 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe18 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe18 .text1
+{
+    color: gray;
+}
+.eoss5 .shoe18 .text1 a
+{
+    color: black;
+}
+.eoss5 .shoe18 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss5 .shoe18 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5caphov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe18:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss5 .shoe18
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss5
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss5 .shoe19
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss5 .shoe19 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5adi.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe19 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe19 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe19 .text1
+{
+    color: gray;
+}
+.eoss5 .shoe19 .text1 a
+{
+    color: black;
+}
+.eoss5 .shoe19 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss5 .shoe19 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5adihov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe19:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss5 .shoe19
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss5
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss5 .shoe20
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss5 .shoe20 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5loyar.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe20 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe20 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss5 .shoe20 .text1
+{
+    color: gray;
+}
+.eoss5 .shoe20 .text1 a 
+{
+    color: black;
+}
+.eoss5 .shoe20 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss5 .shoe20 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r5loyarhov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss5 .shoe20:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss5 .shoe20
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+/* row5 end */
+.eoss6 .shoe21
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss6 .shoe21 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6shoe.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.eoss6 .shoe21 .bestseller 
+{
+    height: 15px;
+    width: 280px;
+    background-color: rgba(204, 198, 198, 0.315);
+    font-size: small;
+    border: 1px solid white;
+}
+.eoss6 .shoe21:hover .bestseller
+{
+    height: 15px;
+    width: 280px;
+    background-color: black;
+    font-size: small;
+    color: white;
+}
+.eoss6 .shoe21 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe21 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe21 .text1
+{
+    color: gray;
+}
+.eoss6 .shoe21 .text1 a
+{
+    color: black;
+}
+.eoss6 .shoe21 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss6 .shoe21 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6shoehov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe21:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss6 .shoe21
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss6
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss6 .shoe22
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss6 .shoe22 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6shirt.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe22 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe22 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe22 .text1
+{
+    color: gray;
+}
+.eoss6 .shoe22 .text1 a
+{
+    color: black;
+}
+.eoss6 .shoe22 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss6 .shoe22 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6shirthov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe22:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss6 .shoe22
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss6
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss6 .shoe23
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss6 .shoe23 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6kid.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe23 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe23 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe23 .text1
+{
+    color: gray;
+}
+.eoss6 .shoe23 .text1 a
+{
+    color: black;
+}
+.eoss6 .shoe23 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss6 .shoe23 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6kidhov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe23:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss6 .shoe23
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.eoss6
+{
+    height: 350px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.eoss6 .shoe24
+{
+    height: 320px;
+    width: 280px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.eoss6 .shoe24 .frame1
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6inner.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe24 .frame1 .off1 b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe24 .frame1 .off2 
+{
+    border: 0px solid;
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+.eoss6 .shoe24 .text1
+{
+    color: gray;
+}
+.eoss6 .shoe24 .text1 a 
+{
+    color: black;
+}
+.eoss6 .shoe24 .frame1 i
+{
+    margin-left: 200px;
+    top: 20px;
+    position: absolute;
+}
+.eoss6 .shoe24 .frame1:hover
+{
+    height: 270px;
+    width: 280px;
+    border: 0px solid;
+    background: url(r6innerhov.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.eoss6 .shoe24:hover
+{
+    border: 1px solid;
+}
+@media(max-width:1107px)
+{
+    .eoss6 .shoe24
+    {
+        height: 320px;
+        width: 280px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+/* row6 end */
+.page
+{
+    height: 70px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page small
+{
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+}
+/* page end */
+.menscoll
+{
+    height: 400px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.menscoll h2
+{
+    display: flex;
+    border: 0px solid;
+    height: 30px;
+    margin-left: 30px;
+}
+.menscoll .btmm2
+{
+    height: 400px;
+    width: 90%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.menscoll .btmm2 li
+{
+    line-height: 2cap;
+}
+@media(max-width:991px)
+{
+    .menscoll
+    {
+        display: none;
+    }
+}
+/* scoll end */
+.bt
+{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+@media(max-width:991px)
+{
+    .bt
+    {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*bt end*/
+.bottom
+{
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: none;
+}
+@media(max-width:991px)
+{
+    .bottom
+    {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+/*bottom end*/
+.bottom1
+{
+    height: 130px;
+    width: 100%;
+    border: 0px solid;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom1 button
+{
+    height: 50px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 0 0 black, 3px 3px 0 0;
+    margin-left: 10px;
+}
+.bottom1 button i
+{
+    padding-left: 10px;
+    font-size: large;
+}
+.bottom1 button:hover
+{
+    color: gray;
+}
+@media(max-width:991px)
+{
+    .bottom1
+    {
+        height: 170px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:428px)
+{
+    .bottom1 h2
+    {
+        font-size: medium;
+    }
+    .bottom1 button
+    {
+        height: 40px;
+        width: 130px;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 2px 0 0 black, 3px 3px 0 0;
+        margin-left: 10px;
+    }
+    .bottom1 button i
+    {
+        padding-left: 10px;
+        font-size: medium;
+    }
+    .bottom1
+    {
+        height: 130px;
+    }
+}
+/*botom1 end*/
+.bottom2
+{
+    height: 350px;
+    width: 100%;
+    border: 0x solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.bottom2 .btm2
+{
+    height: 300px;
+    width: 90%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.bottom2 .btm2 li
+{
+    line-height: 2cap;
+}
+.bottom2 .btm2 .bot6 i
+{
+    border: 0px solid;
+    font-size: 25px;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+}
+@media(max-width:991px)
+{
+    .bottom2
+    {
+        display: none;
+    }
+}
+/*bottom2*/
+.bottom3
+{
+    height: 150px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 2cap;
+    background-color: black;
+    color: white;
+    display: none;
+}
+@media(max-width:991px)
+{
+    .bottom3
+    {
+        display: block;
+    }
+    .bottom3
+    {
+        height: 150px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 2cap;
+        background-color: black;
+        color: white;
+    }
+}
+@media(max-width:420px)
+{
+    .bottom3
+    {
+        display: block;
+    }
+    .bottom3
+    {
+        height: 130px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 2cap;
+        background-color: black;
+        color: white;
+        font-size: small;
+    }
+}
+/*bottom3*/
+.bottom4
+{
+    height: 130px;
+    width: 100%;
+    border: 0px solid;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.bit3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*bottom4*/

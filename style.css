@@ -1,0 +1,3427 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav1
+{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.nav2
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+}
+.nav2 li
+{
+    margin-right: 5px;
+    padding: 10px;
+}
+.nav2 li:hover
+{
+    text-decoration: underline;
+}
+.nav3
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border: 0px solid;
+    background-color: white;
+}
+.nav3 .sub1
+{
+    display: flex;
+    width: 25%;
+    border: 0px solid;
+    height: 50px;
+}
+.nav3 .sub2
+{
+    height: 50px;
+    width: 55%;
+    list-style: none;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px solid;
+}
+.nav3 .sub2 a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav3 .sub3
+{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    border: 0px solid;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.down 
+{
+    width: 100px;
+    height: 12px;
+    border: 0px solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    text-align: right;
+}
+input
+{
+    width: 70%;
+    height: 92%;
+    border: 0px solid;
+    outline: 0;
+    background-color: lightgray;
+}
+.nav3 .sub2 img
+{
+    display: none;
+    margin-bottom: 8px;
+}
+.nav3 .sub1 i
+{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 30px;
+    display: none;
+}
+.nav3 .sub3 #glass
+{
+    display: none;
+}
+@media(max-width:991px)
+{
+    .nav3 .sub2 li
+    {
+        display: none;
+    }
+    .nav3 .sub2 img
+    {
+        display: block;
+    }
+    .nav3 .sub1 img
+    {
+        display: none;
+    }
+    .nav3 .sub1 i
+    {
+        display: block;
+    }
+    .nav3 .sub3 .down
+    {
+        display: none;
+    }
+    .nav3 .sub3 .fa-heart
+    {
+        display: none;
+    }
+    .nav3 .sub3 #glass
+    {
+        display: block;
+    }
+    .nav2
+    {
+        display: none;
+    }
+}
+        /*Navbar End*/
+.body1
+{
+    height: 330px;
+    width: 100%;
+    border: 0px solid;
+}  
+.body1 .child1
+{
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/em_in_eoss_phase_3_hp_mh_d_cbc42f4a04.jpg);
+    height: 330px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}  
+.body1 .child1 .box
+{
+    height: 320px;
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0px solid;
+} 
+.body1 .child1 .box b
+{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
+} 
+.body1 .child1 .box a
+{
+    line-height: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: -70px;
+} 
+.body1 .child1 .box .inside
+{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1px;
+    border: 0px solid;
+} 
+.body1 .child1 .box .inside button 
+{
+    color: black;
+    width: 150px;
+    border: 0px solid black;
+}
+.body1 .child1 .box .inside button:hover
+{
+    color: gray;
+}
+.body1 .child1 .box .inside button .men
+{
+    font-weight: 800;
+    font-size: 28px;
+}
+.body1 .child1 .box .inside button i
+{
+    font-size: medium;
+    margin-left: 5px;
+    padding-right: 5px;
+}
+@media(max-width:991px)
+{
+    .body1 .child1
+    {
+        background-position: left;
+        background-size: 210cqmax;
+        background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/em_in_eoss_phase_3_hp_mh_d_cbc42f4a04.jpg);
+        height: 530px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+    }
+    .body1 .child1 .box
+    {
+       margin-left: 40px;
+       margin-top: 50px;
+       height: 280px;
+       width: 70%;
+       color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       border: 0px solid;
+    }
+    .body1
+    {
+        height: 530px;
+        width: 100%;
+        border: 0px solid;
+    }  
+    .body1 .child1 .box .inside button 
+    {
+        color: black;
+        width: 150px;
+        border: 1px solid black;
+    }
+    .body1 .child1 .box .inside
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:557px)
+{
+    .body1 .child1 .box b
+    {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-left: 20px;
+    } 
+    .body1 .child1
+    {
+        display: flex;
+        justify-content: left;
+        align-items: top;
+    }
+    .body1 .child1 .box
+    {
+        height: 280px;
+        width: 90%;
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+}
+@media(max-width:820px)
+{
+    .body1 .child1 .box
+    {
+        height: 280px;
+        width: 70%;
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 0px solid;
+        margin-left: 10px;
+    }
+    .body1 .child1 .box .inside
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:730px)
+{
+    .body1 .child1 .box
+    {
+        height: 280px;
+        width: 80%;
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 0px solid;
+        margin-left: 10px;
+    }
+    .body1 .child1 .box .inside button 
+    {
+        color: black;
+        width: 150px;
+        border: 1px solid black;
+    }
+    .body1 .child1 .box .inside
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:385px)
+{
+    .body1 .child1 .box b
+    {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-left: 20px;
+    } 
+    .body1 .child1
+    {
+        display: flex;
+        justify-content: left;
+        align-items: top;
+    }
+    .body1 .child1 .box
+    {
+        height: 280px;
+        width: 90%;
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 0px solid;
+        margin-left: 10px;
+    }
+}
+/*BODY1*/
+.body2
+{
+    height: 110px;
+    width: 100%;
+    font-size: 29px;
+    font-weight: 600;
+    display: flex;
+    background-color: rgb(250, 249, 249);
+    border: 0px solid;
+}
+.body2 b
+{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+  /*body2 end*/
+.body3
+{
+   
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.body3 .box1
+{
+    height: 450px;
+    width: 300px;
+    border: 0px solid;
+}
+.body3 .box1 .bb1
+{
+    background-image: url(tshirt.avif);
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+}
+.body3 .box1 .bb2 
+{
+    margin-top: 15px;
+}
+.body3 .box2
+{
+    height: 450px;
+    width: 300px;
+    border: 0px solid;
+}
+.body3 .box2 .bb1
+{
+    background-image: url(shoe.avif);
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+}
+.body3 .box2 .bb2 
+{
+    margin-top: 15px;
+}
+.body3 .box3
+{
+    height: 450px;
+    width: 300px;
+}
+.body3 .box3 .bb1
+{
+    background-image: url(sandals.avif);
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+}
+.body3 .box3 .bb2 
+{
+    margin-top: 15px;
+}
+.body3 .box4
+{
+    height: 450px;
+    width: 300px;
+}
+.body3 .box4 .bb1
+{
+    background-image: url(pant.avif);
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+}
+.body3 .box4 .bb2 
+{
+    margin-top: 15px;
+}
+.body3 .box1 strong
+{
+    text-decoration: underline;
+    font-size: 15px;
+}
+.body3 .box2 strong
+{
+    text-decoration: underline;
+    font-size: 15px;
+}
+.body3 .box3 strong
+{
+    text-decoration: underline;
+    font-size: 15px;
+}
+.body3 .box4 strong
+{
+    text-decoration: underline;
+    font-size: 15px;
+}
+.body3 strong:hover
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+@media(max-width:991px)
+{
+    
+    
+     .body3 .box3
+    {
+        height: 350px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .body3 .box2
+    {
+        height: 350px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .body3 .box1
+    {
+        height: 350px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 0px solid;
+    } 
+    .body3 .box1 .bb1
+    {
+        background-size: cover;
+        border: 1px solid;
+        height: 350px;
+        width: 250px;
+    }
+    .body3 .box2 .bb1
+    {
+        background-size: cover;
+        border: 1px solid;
+        height: 350px;
+        width: 250px;
+    }
+    .body3 .box3 .bb1
+    {
+        background-size: cover;
+        border: 0px solid;
+        height: 350px;
+        width: 250px;
+    }
+}
+@media(max-width:1201px)
+{
+    
+    .body3 .box4 .bb1
+    {
+        height: 350px;
+        width: 100%;
+        border: 0px solid;
+    }
+    .body3 .box3 .bb1
+    {
+        height: 350px;
+        width: 100%;
+    }
+    .body3 .box2 .bb1
+    {
+        height: 350px;
+        width: 100%;
+    }
+    .body3 .box1 .bb1
+    {
+        height: 350px;
+        width: 100%;
+        background-size: cover;
+        border: 0px solid;
+    }
+    .body3 .box4
+    {
+        height: 350px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 0px solid;
+    }
+    .body3 .box3
+    {
+        height: 350px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 0px solid;
+    }
+    .body3 .box2
+    {
+        height: 350px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 0px solid;
+    }
+    .body3 .box1
+    {
+        height: 350px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 0px solid;
+    }
+}
+/*body3 End*/
+.body4
+{
+    height: 80px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+}
+.body4 .category
+{
+    height: 80px;
+    width: 60%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.body4 .category a
+{
+    text-decoration: none;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 70px;
+}
+.body4 .category button
+{
+    padding: 10px 15px;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    border: 1px solid;
+}
+.body4 .category button:hover
+{
+    background-color: black;
+    color: white;
+}
+.body4 a 
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    width: 40%;
+    margin-right: 20px;
+    font-size: 18px;
+    border: 0px solid;
+}
+@media(max-width:991px)
+{
+    .body4 a
+    {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        color: black;
+        width: 40%;
+        margin-right: 20px;
+        font-size: 18px;
+        border: 0px solid;
+    }
+    .body4 .category button
+    {
+        padding: 8px 12px;
+        font-weight: 400;
+        color: black;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 60%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media(max-width:856px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 16px;
+        border: 0px solid;
+    }
+    .body4 .category button
+    {
+        padding: 8px 12px;
+        font-weight: 400;
+        color: black;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 75%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(max-width:665px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 16px;
+        border: 0px solid;
+    }
+    .body4 .category button
+    {
+        padding: 8px 12px;
+        font-weight: 400;
+        color: black;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 90%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(max-width:570px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 16px;
+        border: 0px solid;
+    }
+    .body4 .category button
+    {
+        padding: 8px 12px;
+        font-weight: 400;
+        color: black;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(max-width:513px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 14px;
+        border: 0px solid;
+    }
+    .body4 .category a
+    {
+        text-decoration: none;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 40px;
+    }
+    .body4 .category button
+    {
+        padding: 8px 10px;
+        font-weight: 400;
+        color: black;
+        font-size: 10px;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(max-width:430px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 14px;
+        border: 0px solid;
+    }
+    .body4 .category button
+    {
+        padding: 8px 5px;
+        font-weight: 400;
+        color: black;
+        font-size: 10px;
+    }
+    .body4 .category
+    {
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 5px 0px;
+    }
+}
+@media(max-width:380px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 12px;
+        border: 0px solid;
+    }
+    .body4 .category a
+    {
+        text-decoration: none;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 40px;
+    }
+    .body4 .category button
+    {
+        padding: 6px 3px;
+        font-weight: 400;
+        color: black;
+        font-size: 10px;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(max-width:345px)
+{
+    .body4
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }
+    .body4 a
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 30%;
+        margin-left: 5px;
+        font-size: 12px;
+        border: 0px solid;
+    }
+    .body4 .category a
+    {
+        text-decoration: none;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 30px;
+    }
+    .body4 .category a button
+    {
+        padding: 6px 10px;
+    }
+    .body4 .category button
+    {
+        padding: 6px 2px;
+        font-weight: 400;
+        color: black;
+        font-size: 8px;
+    }
+    .body4 .category
+    {
+        height: 80px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+/*body4 end*/
+.body5
+{
+    height: 300px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.body5 .yogapant
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(yogapant.avif);
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+}
+.body5 .speedshoe
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(speedshoe.avif);
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+}
+.body5 .astoshoe
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(ASTOUNDRUN_SHOES.avif);
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+}
+.body5 .yogadress
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(yoga\ dress.avif);
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+}
+.body5 .rayanshoe
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(RAYGUN_SHOES.avif);
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+}
+.body5 .yogapant i
+{
+   margin-left: 160px;
+   margin-top: 20px;
+   height: 15px;
+}
+.body5 .speedshoe i
+{
+    margin-left: 160px;
+    margin-top: 20px;
+    height: 15px;
+}
+.body5 .astoshoe i
+{
+    margin-left: 160px;
+    margin-top: 20px;
+    height: 15px;
+}
+.body5 .yogadress i
+{
+    margin-left: 160px;
+    margin-top: 20px;
+    height: 15px;
+}
+.body5 .rayanshoe i
+{
+    margin-left: 160px;
+    margin-top: 20px;
+    height: 15px;
+}
+.body5 .yogapant .offer b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+del
+{
+    background-color: white;
+    color: gray;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+ins
+{
+    background-color: white;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 80px;
+    color: red;
+}
+.body5 .speedshoe .offer b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+del
+{
+    background-color: white;
+    color: gray;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+ins
+{
+    background-color: white;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 80px;
+    color: red;
+}
+.body5 .astoshoe .offer b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+del
+{
+    background-color: white;
+    color: gray;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+ins
+{
+    background-color: white;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 80px;
+    color: red;
+}
+.body5 .yogadress .offer b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+del
+{
+    background-color: white;
+    color: gray;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+ins
+{
+    background-color: white;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 80px;
+    color: red;
+}
+.body5 .rayanshoe .offer b
+{
+    border: 0px solid;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+del
+{
+    background-color: white;
+    color: gray;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+ins
+{
+    background-color: white;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 80px;
+    color: red;
+}
+@media(max-width:991px)
+{
+    .body5 .speedshoe
+    {
+        height: 250px;
+    width: 250px;
+    border: 0px solid;
+    display: flex;
+    background: url(speedshoe.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30px;
+    }
+    .body5 .astoshoe
+    {
+        height: 250px;
+        width: 250px;
+        border: 0px solid;
+        display: flex;
+        background: url(ASTOUNDRUN_SHOES.avif);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-left: 30px;
+    }
+    .body5 .yogapant
+    {
+        height: 250px;
+        width: 250px;
+        border: 0px solid;
+        display: flex;
+        background: url(yogapant.avif);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-left: 30px;
+    }
+    .body5 .yogadress
+    {
+        height: 250px;
+    width: 250px;
+    border: 0px solid;
+    display: flex;
+    background: url(yoga\ dress.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30px;
+    }
+    .body5 .rayanshoe
+    {
+        height: 250px;
+    width: 250px;
+    border: 0px solid;
+    display: flex;
+    background: url(RAYGUN_SHOES.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30px;
+    } 
+    .body5 .yogapant i
+    {
+        margin-right: 10px;
+    }
+    .body5 .yogadress i
+    {
+        margin-right: 10px;
+    }
+    .body5 .rayanshoe i
+    {
+        margin-right: 10px;
+    }
+    .body5 .astoshoe i
+    {
+        margin-right: 10px;
+    }
+    .body5 .speedshoe i
+    {
+        margin-right: 10px;
+    }
+}
+@media(max-width:750px)
+{
+    .body5
+    {
+        height: 280px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+    }
+    .body5 .speedshoe
+    {
+        height: 200px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(speedshoe.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30px;
+    }
+    .body5 .astoshoe
+    {
+        height: 200px;
+        width: 200px;
+        border: 0px solid;
+        display: flex;
+        background: url(ASTOUNDRUN_SHOES.avif);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-left: 30px;
+    }
+    .body5 .yogapant
+    {
+        height: 200px;
+        width: 200px;
+        border: 0px solid;
+        display: flex;
+        background: url(yogapant.avif);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-left: 30px;
+    }
+    .body5 .yogadress
+    {
+        height: 200px;
+        width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(yoga\ dress.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30px;
+    }
+    .body5 .rayanshoe
+    {
+        height: 200px;
+        width: 200px;
+    border: 0px solid;
+    display: flex;
+    background: url(RAYGUN_SHOES.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30px;
+    } 
+    .body5 .yogapant i
+    {
+        margin-right: 10px;
+    }
+    .body5 .yogadress i
+    {
+        margin-right: 10px;
+    }
+    .body5 .rayanshoe i
+    {
+        margin-right: 10px;
+    }
+    .body5 .astoshoe i
+    {
+        margin-right: 10px;
+    }
+    .body5 .speedshoe i
+    {
+        margin-right: 10px;
+    }
+}
+/*body5 End*/
+video
+{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    border: 0px solid;
+}
+.background-vdo
+{
+    height: 500px;
+    width: 100%;
+    border: 0px solid;
+    pointer-events: none;
+    object-fit: cover;
+}
+video .body6 
+{
+    height: 250px;
+    width: 380px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    align-items: left;
+}
+video .body6 b
+{
+    font-size: 36px;
+    color: white;
+}
+video .body6 small
+{
+    color: white;
+    font-size: larger;
+}
+video .body6 button
+{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    box-shadow: 2px 2px 0 0 rgb(8, 8, 8), 3px 3px 0 0 rgb(5, 5, 5);
+    cursor: pointer;
+}
+video .body6 button i
+{
+    padding-left: 10px;
+    font-size: medium;
+}
+video .body6 button:hover
+{
+    color: gray;
+    transform: translate(-2px,-2px);
+    box-shadow: 3px 3px 0 0 rgb(8, 8, 8), 4px 4px 0 0 rgb(5, 5, 5);
+}
+@media(max-width:991px)
+{
+    .body6
+    {
+        background-position: right;
+        background-size: 250cqmax;
+    }
+    .background-vdo
+    {
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+    }
+}
+@media(max-width:450px)
+{
+    .body6
+    {
+        background-position: right;
+        background-size: 250cqmax;
+    }
+    .background-vdo
+    {
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+    }
+}
+@media(max-width:400px)
+{
+    .body6
+    {
+        background-position: right;
+        background-size: 250cqmax;
+    }
+    .background-vdo
+    {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+    }
+}
+@media(max-width:350px)
+{
+    .body6
+    {
+        background-position: right;
+        background-size: 250cqmax;
+    }
+    .background-vdo
+    {
+        height: 430px;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+    }
+}
+/*videobody6 End*/
+.football
+{
+    height: 110px;
+    width: 100%;
+    font-size: 29px;
+    font-weight: 600;
+    display: flex;
+    background-color: white;
+    border: 0px solid;
+}
+.football b
+{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+/*football end*/
+.body7
+{
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+}
+.body7 .cat
+{
+    height: 80px;
+    width: 50%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: left;
+}
+.body7 .cat button 
+{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid;
+    font-size: 17px;
+}
+.body7 .cat .list button
+{
+    padding: 10px 15px;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    font-size: 17px;
+}
+.body7 .cat .list button:hover
+{
+    background-color: black;
+    color: white;
+}
+.body7 .ahover 
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    width: 50%;
+    margin-right: 20px;
+    font-size: 18px;
+    border: 0px solid;
+}
+.body7 .ahover a
+{
+   height: 25px;
+   width: 90px;
+   color: black;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+.body7 .ahover a:hover
+{
+    background-color: black;
+    color: white;
+}
+@media(max-width:856px)
+{
+    .body7 .ahover 
+    {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        color: black;
+        width: 40%;
+        margin-right: 20px;
+        font-size: 18px;
+    } 
+    .body7 .cat
+    {
+        height: 80px;
+        width: 90%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: left;
+        margin-left: 30px;
+    }
+    .body7
+    {
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }  
+    .body7 .cat button 
+    {
+        background-color: black;
+        color: white;
+        padding: 9px 13px;
+        border: 1px solid;
+        font-size: 12px;
+    }   
+    .body7 .cat .list button
+    {
+        padding: 9px 13px;
+        font-weight: 700;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        font-size: 12px;
+    }
+    .body7 .ahover 
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 50%;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}
+@media(max-width:360px)
+{
+    .body7 .ahover 
+    {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        color: black;
+        width: 40%;
+        margin-right: 20px;
+        font-size: 18px;
+    } 
+    .body7 .cat
+    {
+        height: 80px;
+        width: 95%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: left;
+        margin-left: 15px;
+    }
+    .body7
+    {
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }  
+    .body7 .cat button 
+    {
+        background-color: black;
+        color: white;
+        padding: 10px 9px;
+        border: 1px solid;
+        font-size: 12px;
+    }   
+    .body7 .cat .list button
+    {
+        padding: 10px 9px;
+        font-weight: 700;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        font-size: 12px;
+    }
+    .body7 .ahover 
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: black;
+        width: 50%;
+        margin-left: 15px;
+        font-size: 14px;
+    }
+}
+/*body7 end*/
+.body8
+{
+    height: 300px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.body8 .shoe1
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body8 .shoe1 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/e745acb29cd248e8994a6820a4ac6a29_9366/GAZELLE_BOLD_SHOES_Yellow_IF5937_01_standard.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body8 .shoe1 .text1
+{
+    color: gray;
+}
+.body8 .shoe1 .text1 a
+{
+    color: black;
+}
+.body8 .shoe1 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body8 .shoe1 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body8 .shoe1 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+
+.body8 .shoe2
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body8 .shoe2 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/e1ba91a12aef486680e5dbf046ac978f_9366/Samba_OG_Shoes_White_IF3814_01_standard.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body8 .shoe2 .text1
+{
+    color: gray;
+}
+.body8 .shoe2 .text1 a
+{
+    color: black;
+}
+.body8 .shoe2 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body8 .shoe2 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body8 .shoe2 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body8 .shoe3
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body8 .shoe3 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/f5fe74e35f2c4107bdffad200179a37d_9366/Gazelle_Shoes_Pink_H01512_01_standard.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body8 .shoe3 .text1
+{
+    color: gray;
+}
+.body8 .shoe3 .text1 a
+{
+    color: black;
+}
+.body8 .shoe3 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body8 .shoe3 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body8 .shoe3 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body8 .shoe4
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body8 .shoe4 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/011744ef273d4a66b9cc880b980340a2_9366/Samba_OG_Shoes_White_ID0478_01_standard.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body8 .shoe4 .text1
+{
+    color: gray;
+}
+.body8 .shoe4 .text1 a
+{
+    color: black;
+}
+.body8 .shoe4 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body8 .shoe4 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body8 .shoe4 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body8 .shoe5
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body8 .shoe5 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(shoe5.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body8 .shoe5 .text1
+{
+    color: gray;
+}
+.body8 .shoe5 .text1 a
+{
+    color: black;
+}
+.body8 .shoe5 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body8 .shoe5 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body8 .shoe5 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+@media(max-width:991px)
+{
+    .body8
+    {
+        overflow-y: hidden;
+        height: 330px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .body8 .text1
+    {
+        margin-left: 30px;
+    }
+    .body8 .shoe4
+    {
+        display: none;
+    }
+    .body8 .shoe5
+    {
+        display: none;
+    }
+    .body8 .shoe1
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .body8 .shoe1 .frame1
+    {
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        border: 0px solid;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body8 .shoe1 .frame1 i
+    {
+        margin-left: 200px;
+        top: 30px;
+        position: absolute;
+    }
+    .body8 .shoe2
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .body8 .shoe2 .frame1
+    {
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        border: 0px solid;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body8 .shoe2 .frame1 i
+    {
+        margin-left: 200px;
+        top: 30px;
+        position: absolute;
+    }
+    .body8 .shoe3
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .body8 .shoe3 .frame1
+    {
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        border: 0px solid;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body8 .shoe3 .frame1 i
+    {
+        margin-left: 200px;
+        top: 30px;
+        position: absolute;
+    }
+}
+/*body8 End*/
+.das
+{
+    height: 500px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.vd1
+{
+    height: 400px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.vdo2
+{
+    height: 400px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.vdo3
+{
+    height: 400px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.vdo4
+{
+    height: 400px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.back-vd
+{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border: 0px solid;
+}
+.child2 a
+{
+    color: black;
+    border: 0px solid;
+}
+.vd1 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+.vdo2 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+.vdo3 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+.vdo4 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+@media(max-width:991px)
+{
+    .das .vdo4
+    {
+        display: none;
+    }
+}
+/*vdo end*/
+.tetext
+{
+    font-size: 38px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.tetext b
+{
+    margin-left: 20px;
+}
+@media(max-width:380px)
+{
+    .tetext
+    {
+        font-size: 35px;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+/*div end*/
+.girlyoga
+{
+    height: 450px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.girlyoga .frame1
+{
+    height: 380px;
+    width: 380px;
+    border: 1px solid;
+    background: url(yoga\ dress.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.girlyoga .text1
+{
+    color: gray;
+}
+.girlyoga .text1 a
+{
+    color: rgb(32, 32, 32);
+    font-size: medium;
+}
+.girlyoga .text2 small
+{
+    margin-top: 5px;
+    color: gray;
+}
+.girlyoga .frame1 i
+{
+    right: 30px;
+    top: 30px;
+    position: absolute;
+}
+.girlyoga .frame1 .offer
+{
+    background-color: white;
+    height: 25px;
+    width: 40px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+}
+.girlyoga .frame1 .offer2
+{
+    background-color: white;
+    height: 23px;
+    width: 138px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+.girlyoga .frame1:hover
+{
+    border: 1px solid;
+}
+@media(max-width:550px)
+{
+    .girlyoga .frame1
+    {
+        height: 300px;
+        width: 300px;
+        border: 1px solid;
+        background: url(yoga\ dress.avif);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+}
+@media(max-width:380px)
+{
+    .girlyoga .frame1
+    {
+        height: 270px;
+        width: 270px;
+        border: 1px solid;
+        background: url(yoga\ dress.avif);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+}
+@media(max-width:290px)
+{
+    .girlyoga .frame1
+    {
+        height: 250px;
+        width: 250px;
+        border: 1px solid;
+        background: url(yoga\ dress.avif);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+}
+/*girlyoga*/
+.popular
+{
+    height: 420px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+}
+.popular .box5 ul           
+{
+    height: 100px;
+    width: 90%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+}
+.box5 ul strong
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 34px;
+    font-weight: 800;
+    border-bottom: 1px solid;
+}
+.box5 ul strong:hover
+{
+    border-bottom: 5px solid;
+}
+.popular .box6 ul
+{
+    height: 100px;
+    width: 90%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+}
+.box6 ul strong
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 34px;
+    font-weight: 800;
+    border-bottom: 1px solid;
+}
+.box6 ul strong:hover
+{
+    border-bottom: 5px solid;
+}
+.popular h1
+{
+    margin-left: 35px;
+}
+.box5 ul li
+{
+    border: 0cap;
+}
+@media(max-width:991px)
+{
+    .popular
+    {
+        height: 520px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+    }
+     .popular .box5 ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+        width: 90%;
+        border: 0px solid;
+    }
+    .box5 ul strong
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        font-size: 34px;
+        font-weight: 800;
+        border-bottom: 1px solid;
+    }
+    .box5 ul strong:hover
+    {
+        border-bottom: 5px solid;
+    }
+    .box6 ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .popular .box6 ul
+    {
+        height: 200px;
+        width: 90%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    .box6 ul strong
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        font-size: 34px;
+        font-weight: 800;
+        border-bottom: 1px solid;
+    }
+    .box6 ul strong:hover
+    {
+        border-bottom: 5px solid;
+    }
+}
+@media(max-width:800px)
+{
+    .box5 ul strong
+    {
+        font-size: 30px;
+    }
+    .box6 ul strong
+    {
+        font-size: 30px;
+    }  
+    .popular .box6 ul
+    {
+        height: 180px;
+        width: 90%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+}
+@media(max-width:560px)
+{
+    .box5 ul strong
+    {
+        font-size: 30px;
+    }
+    .box6 ul strong
+    {
+        font-size: 30px;
+    } 
+    .popular .box5 ul
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       height: 180px;
+       width: 85%;
+       border: 0px solid;
+   } 
+    .popular .box6 ul
+    {
+        height: 180px;
+        width: 85%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    .popular
+    {
+        height: 480px;
+    }
+}
+
+@media(max-width:460px)
+{
+    .box5 ul strong
+    {
+        font-size: 28px;
+    }
+    .box6 ul strong
+    {
+        font-size: 28px;
+    } 
+    .popular .box5 ul
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       height: 180px;
+       width: 83%;
+       border: 0cqi solid;
+   } 
+    .popular .box6 ul
+    {
+        height: 180px;
+        width: 83%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    .popular
+    {
+        height: 480px;
+    }
+}
+@media(max-width:380px)
+{
+    .box5 ul strong
+    {
+        font-size: 26px;
+    }
+    .box6 ul strong
+    {
+        font-size: 26px;
+    } 
+    .popular .box5 ul
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       height: 180px;
+       width: 85%;
+       border: 0px solid;
+   } 
+    .popular .box6 ul
+    {
+        height: 180px;
+        width: 85%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    .popular
+    {
+        height: 480px;
+        border: 0px solid;
+    }
+}
+@media(max-width:345px)
+{
+    .box5 ul strong
+    {
+        font-size: 22px;
+    }
+    .box6 ul strong
+    {
+        font-size: 22px;
+    } 
+    .popular .h1
+    {
+        font-size: 24px;
+    }
+    .popular .box5 ul
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       height: 180px;
+       width: 85%;
+       border: 0px solid;
+   } 
+    .popular .box6 ul
+    {
+        height: 180px;
+        width: 85%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    .popular
+    {
+        height: 510px;
+        border: 0px solid;
+    }
+}
+/*popular end*/
+.singlediv
+{
+    height: 100px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+}
+.indiv1 button
+{
+    background-color: black;
+    color: white;
+    border: 0px solid;
+    font-size: 17px;
+    margin-left: 59px;
+    margin-top: 30px;
+    padding: 10px 10px;
+}
+.indiv button
+{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+.indiv button:hover
+{
+    background-color: black;
+    color: white;
+}
+@media(max-width:408px)
+{
+    .indiv button
+    {
+        padding: 8px 8px;
+        margin-left: 5px;
+    }
+    .indiv1 button
+    {
+        padding: 9px 8px;
+        margin-left: 5px;
+    }
+}
+@media(max-width:330px)
+{
+    .indiv button
+    {
+        padding: 8px 8px;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    .indiv1 button
+    {
+        padding: 9px 8px;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+}
+/*singlediv*/
+.body9
+{
+    height: 300px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.body9 .shoe1
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body9 .shoe1 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(mad.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body9 .shoe1 .text1
+{
+    color: gray;
+}
+.body9 .shoe1 .text1 a
+{
+    color: black;
+}
+.body9 .shoe1 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body9 .shoe1 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body9 .shoe1 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body9 .shoe2
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body9 .shoe2 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(samba1.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body9 .shoe2 .text1
+{
+    color: gray;
+}
+.body9 .shoe2 .text1 a
+{
+    color: black;
+}
+.body9 .shoe2 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body9 .shoe2 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body9 .shoe2 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body9 .shoe3
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body9 .shoe3 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(samba2.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body9 .shoe3 .text1
+{
+    color: gray;
+}
+.body9 .shoe3 .text1 a
+{
+    color: black;
+}
+.body9 .shoe3 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body9 .shoe3 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body9 .shoe3 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body9 .shoe4
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body9 .shoe4 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(forum1.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body9 .shoe4 .text1
+{
+    color: gray;
+}
+.body9 .shoe4 .text1 a
+{
+    color: black;
+}
+.body9 .shoe4 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body9 .shoe4 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body9 .shoe4 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+.body9 .shoe5
+{
+    height: 270px;
+    width: 200px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.body9 .shoe5 .frame1
+{
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+    background: url(forum2.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.body9 .shoe5 .text1
+{
+    color: gray;
+}
+.body9 .shoe5 .text1 a
+{
+    color: black;
+}
+.body9 .shoe5 .frame1 i
+{
+    margin-left: 160px;
+    top: 20px;
+    position: absolute;
+}
+.body9 .shoe5 .frame1 .offer
+{
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    border: 0px solid;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+}
+.body9 .shoe5 .frame1 .offer:hover
+{
+    margin-top: -20px;
+}
+@media(max-width:1040px)
+{
+    .body9 .shoe4
+    {
+        display: none;
+    }
+    .body9 .shoe5
+    {
+        display: none;
+    }
+    .body9 .text1
+    {
+        margin-left: 30px;
+    }
+    .body9 .shoe1
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .body9 .shoe1 .frame1
+    {
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body9 .shoe1 .frame1 i
+    {
+        margin-left: 200px;
+        top: 30px;
+        position: absolute;
+    }
+    .body9 .shoe2
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .body9 .shoe2 .frame1
+    {
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body9 .shoe2 .frame1 i
+    {
+        margin-left: 200px;
+        top: 30px;
+        position: absolute;
+    }
+    .body9 .shoe3
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .body9 .shoe3 .frame1
+    {
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body9 .shoe3 .frame1 i
+    {
+        margin-left: 200px;
+        top: 30px;
+        position: absolute;
+    }
+    .body9
+    {
+        height: 330px;
+        display: flex;
+        justify-content: space-between;
+        overflow-y: hidden;
+    }
+}
+/*body9 End*/
+.hot
+{
+    height: 110px;
+    width: 100%;
+    font-size: 29px;
+    font-weight: 600;
+    display: flex;
+    background-color: white;
+    border: 0px solid;
+}
+.hot b
+{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+/*hot end*/
+.body10
+{
+    height: 500px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+.vd1
+{
+    height: 440px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.vd1 .child1
+{
+    height: 390px;
+    width: 300px;
+    border: 0px solid;
+    background-image: url(10img1.avif);
+    background-size: cover;
+}
+.vdo2
+{
+    height: 440px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.vdo2 .child1
+{
+    height: 380px;
+    width: 300px;
+    border: 0px solid;
+    background-image: url(10img2.avif);
+    background-size: cover;
+}
+.vdo3
+{
+    height: 440px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.vdo4 .child1
+{
+    height: 380px;
+    width: 300px;
+    border: 0px solid;
+    background-image: url(10img3.avif);
+    background-size: cover;
+}
+.vdo4
+{
+    height: 440px;
+    width: 300px;
+    border: 0px solid;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.back-vd
+{
+    height: 350px;
+    width: 300px;
+}
+.child2 a
+{
+    color: black;
+    border: 0px solid;
+}
+.vd1 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+.vdo2 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+.vdo3 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+.vdo4 .child2 small
+{
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+}
+@media(max-width:991px)
+{
+    .body10 .vdo4
+    {
+        display: none;
+    }
+}
+/*body10 end*/
+.body11
+{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.body11 .details
+{
+    height: 450px;
+    width: 90%;
+    border: 0px solid;
+    column-count: 2;
+    padding: 20px;
+    line-height: normal;
+    line-height: 20px;
+    font-size: 12px;
+}
+@media(max-width:991px)
+{
+    .body11 .details
+    {
+        height: 750px;
+        width: 90%;
+        border: 0px solid;
+        padding: 20px;
+        line-height: normal;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .body11
+    {
+        height: 800px;
+        width: 100%;
+        border: 0px solid;
+    }
+}
+@media(max-width:606px)
+{
+    .body11
+    {
+        height: 850px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body11 .details
+    {
+        height: 750px;
+        width: 90%;
+        border: 0px solid;
+        padding: 15px;
+        line-height: normal;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:554px)
+{
+    .body11
+    {
+        height: 950px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body11 .details
+    {
+        height: 850px;
+        width: 90%;
+        border: 0px solid;
+        padding: 15px;
+        line-height: normal;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:510px)
+{
+    .body11
+    {
+        height: 1150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body11 .details
+    {
+        height: 1050px;
+        width: 90%;
+        border: 0px solid;
+        padding: 15px;
+        line-height: normal;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:390px)
+{
+    .body11
+    {
+        height: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body11 .details
+    {
+        height: 1200px;
+        width: 90%;
+        border: 0px solid;
+        padding: 15px;
+        line-height: normal;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:338px)
+{
+    .body11
+    {
+        height: 1350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body11 .details
+    {
+        height: 1280px;
+        width: 90%;
+        border: 0px solid;
+        padding: 15px;
+        line-height: normal;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*bt end*/
+.bottom
+{
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: none;
+    border: 0px solid;
+}
+@media(max-width:991px)
+{
+    .bottom
+    {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media(max-width:425px)
+{
+    .bottom
+    {
+        font-size: small;
+    }
+}
+/*bottom end*/
+.bottom1
+{
+    height: 130px;
+    width: 100%;
+    border: 0px solid;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom1 button
+{
+    height: 50px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 0 0 black, 3px 3px 0 0;
+    margin-left: 10px;
+}
+.bottom1 button i
+{
+    padding-left: 10px;
+    font-size: large;
+}
+.bottom1 button:hover
+{
+    color: gray;
+}
+@media(max-width:991px)
+{
+    .bottom1
+    {
+        height: 170px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*botom1 end*/
+.bottom2
+{
+    height: 350px;
+    width: 100%;
+    border: 0x solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.bottom2 .btm2
+{
+    height: 300px;
+    width: 90%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.bottom2 .btm2 li
+{
+    line-height: 2cap;
+}
+.bottom2 .btm2 .bot6 i
+{
+    border: 0px solid;
+    font-size: 25px;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+}
+@media(max-width:991px)
+{
+    .bottom2
+    {
+        display: none;
+    }
+}
+/*bottom2*/
+.bottom3
+{
+    height: 150px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 2cap;
+    background-color: black;
+    color: white;
+    display: none;
+}
+@media(max-width:991px)
+{
+    .bottom3
+    {
+        display: block;
+    }
+    .bottom3
+    {
+        height: 150px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 2cap;
+        background-color: black;
+        color: white;
+    }
+}
+@media(max-width:420px)
+{
+    .bottom3
+    {
+        display: block;
+    }
+    .bottom3
+    {
+        height: 130px;
+        width: 100%;
+        border: 0px solid;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 2cap;
+        background-color: black;
+        color: white;
+        font-size: small;
+    }
+}
+@media(max-width:428px)
+{
+    .bottom1 h2
+    {
+        font-size: medium;
+    }
+    .bottom1 button
+    {
+        height: 40px;
+        width: 130px;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 2px 0 0 black, 3px 3px 0 0;
+        margin-left: 10px;
+    }
+    .bottom1 button i
+    {
+        padding-left: 10px;
+        font-size: medium;
+    }
+    .bottom1
+    {
+        height: 130px;
+    }
+}
+/*bottom3*/
+.bottom4
+{
+    height: 130px;
+    width: 100%;
+    border: 0px solid;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.bit3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*bottom4*/
+.bt
+{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+@media(max-width:991px)
+{
+    .bt
+    {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* The End */
